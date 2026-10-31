@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+          'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+temperature = [22, 24, 27, 30, 33, 32, 30, 29, 28, 27, 25, 23]
+
+plt.plot(months, temperature, marker='o')
+plt.title("Monthly Temperature")
+plt.xlabel("Months")
+plt.ylabel("Temperature (°C)")
+plt.show()
